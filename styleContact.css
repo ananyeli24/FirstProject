@@ -6,11 +6,11 @@
   
   
   body{
-    background-color: darkblue;
+    background-color: rgba(255, 255, 0, 0.736);
   }
   
-  h1 {
-    color: white;
+  h2 {
+    color: black;
     text-align: center;
     padding:50px;
     font-size: 50px;
@@ -18,15 +18,15 @@
     
   }
   ul{
-   color: white;
+   color: black;
    list-style: none;
     font-size: 50px;
     
   }
   li a{
-    color: white;
-    font-size: 32x;
-    padding: 20pix;
+    color: black;
+    font-size: 32px;
+    padding: 20px;
     text-decoration: none;
   
   }

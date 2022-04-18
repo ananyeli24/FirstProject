@@ -1,5 +1,6 @@
 body{
-    background-color: dodgerblue;
+    background-color: rgba(0, 0, 255, 0.703);
+    
   }
   footer{
     text-align: center;
@@ -31,8 +32,8 @@ body{
   }
   li a{
     color: white;
-    font-size: 32x;
-    padding: 20pix;
+    font-size: 32px;
+    padding: 20px;
     text-decoration: none;
   
   }
