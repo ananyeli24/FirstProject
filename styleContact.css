@@ -1,12 +1,35 @@
 *{
-
+    box-sizing: border-box;
     margin:0;
     padding:0;
   }
   
   
   body{
-    background-color: rgba(255, 255, 0, 0.736);
+    background-color: rgb(253, 204, 71);;
+  }
+  a{
+    text-decoration: none;
+    color:inherit ;
+  }
+  nav {
+  text-align: center;
+  background-color: rgb(253, 204, 71);
+  padding: 1rem 0;
+  }
+  nav li{
+    display: inline-block;
+    
+  }
+  .navbutton {
+  width: 180px;
+  background-color: white;
+  font-size: 22px;
+  padding: 10px 20px ;
+  border-radius: 40px;
+  }
+  #logo {
+    margin-bottom: 10px;
   }
   
   h2 {
@@ -17,37 +40,21 @@
     font-family: Apple Chancery ;
     
   }
-  ul{
-   color: black;
-   list-style: none;
-    font-size: 50px;
-    
-  }
-  li a{
-    color: black;
-    font-size: 32px;
-    padding: 20px;
-    text-decoration: none;
-  
-  }
-  nav li{
-    display: inline-block;
-    
-    
-  }
-  nav {
-    text-align: center;
-    
-  }
-  
   form{
     text-align: center;
+    
   }
+
+ .submit{
+  border-radius: 20px;
+  border: none;
+ }
   
   footer{
     text-align: center;
     width: 100%;
-    bottom: 0%;
+    bottom: 100%;
     position: absolute;
     color: black;
+    display: block;
   }

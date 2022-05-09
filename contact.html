@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
 
-    <link href="styleContact.css" rel="stylesheet" type="text/css" />
-  
-  <body>
-    
-          <div class="logo">
-            <img src="logo.jpeg" alt="logo" width="50" height="50" >
-          </div>
-    
-    <h2>Contact Information</h2>
-      <article>
-      <form>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+
+  <link href="styleContact.css" rel="stylesheet" type="text/css" />
+
+<body>
+
+  <nav>
+    <div id="logo">
+      <img src="logo.jpeg" alt="logo" width="50" height="50">
+    </div>
+
+    <ul>
+      <li><a class="navbutton" href="index.html">Home</a></li>
+      <li><a class="navbutton" href="Product.html">Gloves</a></li>
+      <li><a class="navbutton" href="contact.html">Contact</a></li>
+    </ul>
+
+  </nav>
+
+
+  <h2>Contact Information</h2>
+  <article>
+    <form>
+
       <h3> Contact us!</h3>
+      <div class="form-box">
         <label>Name</label>
-        <input type="text"  placeholder="Your name here">
-        
-        <br>
-      
-        <label>Number</label>
-        <input type="text"    placeholder="Your phone number here">
-        
-      
-        <br>
+        <input type="text" placeholder="Your name here">
+      </div>
 
-      
+      <div class="form-box">
+        <label>Number</label>
+        <input type="text" placeholder="Your phone number here">
+      </div>
+
+
+      <div class="form-box">
+
         <label>Email</label>
-        <input type="email"  placeholder="Your Email here">
-        </form>
-      </article>
-        <br>
+        <input type="email" placeholder="Your Email here">
+
+      </div>
+
+
+      <div class="form-box">
+        <label for="Message"> Tells us anything </label>
+        <textarea id="Message" name="message"> </textarea>
+      </div>
 
        
-        <label for ="Message"> Tells us anything </label>
-        <textarea id="Message" name="message"> </textarea>
-          <br>
-      <input type="submit" name="submit" value="submit">
-    
-    </article>
-    <br>   
       
-    
-    <br>
-      <hr>
-     <nav>
-      <ul>
-        <li><a href ="index.html">Home</a></li>
-        <li><a href ="Thingstodo.html">Things to do</a></li>
-       <li><a href ="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  
-  </body>
-    
-  <footer> Designed by Ananyeli Batista & Tropics Copy Rights 2022 &copy; </footer> 
+       <input class="submit" type="submit" name="submit" value="submit">
+    </form>
+
+   
+
+  </article>
+
+  <footer> Designed by Ananyeli Batista & Tropics Copy Rights 2022 &copy; </footer>
+</body>
 
 </html>
